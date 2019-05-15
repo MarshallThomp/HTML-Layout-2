@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    background-color: lightcyan;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+}
+
+.icon {
+    display: flex;
+    margin-right: 10px;
+}
+
+.fab {
+    font-size: 50px;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+nav > a {
+    margin: 20px;
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+}
+
+.sub-tog > button {
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    
+}
+
+.subscribe {
+    margin-right: 50px;
+    border: 1px solid blue;
+    border-radius: 100em;
+    padding: 10px;
+    background-color: blue;
+    width: 125px;
+}
+
+.toggle {
+    border: 1px solid black;
+    border-radius: 10%;
+    background: black;
+    font-size: large;
+    padding: 10px;
+    width: 40px;
+}
+
+.main {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    height: calc(100vh - 200px);
+    align-items: center;
+}
+
+.divs {
+    position: relative;
+    right: 15%;
+    bottom: 8%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#top-words {
+    font-size: 80px; 
+    letter-spacing: 3px;
+}
+
+.view {
+    border: 1px solid blue;
+    border-radius: 100em;
+    background: blue;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    width: 200px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
